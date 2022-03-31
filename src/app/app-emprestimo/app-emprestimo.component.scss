@@ -1,0 +1,106 @@
+section{
+  background-color: rgb(222, 231, 236);
+  padding-top: 1px;
+  padding-bottom: 62px;
+  margin: 0px -8px -10px -8px;
+}
+
+.anuncio{
+  background-color: #2d4bd1;
+  padding: 15px 0px 15px 0px;
+  margin: 15px 10px 15px 10px;
+  &_text{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    font-weight: normal;
+    border-bottom: 1px solid whitesmoke;
+  }
+  &_text2{
+    margin-top: -5px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+}
+
+.emprestimo{
+  background-color: white;
+  margin: 0px 10px 0px 10px;
+  box-shadow: 0px 0px 5px rgb(150, 159, 163);
+  border-radius: 5px;
+  &_titulo{
+   text-align: center;
+   font-weight: normal;
+   margin-top: 10px;
+   padding-top: 15px;
+  }
+  &_paragrafo{
+    font-size: 16px;
+    margin: 0px 15px 0px 15px;
+  }
+  &_valor{
+    color: green;
+  }
+  &_input{
+    width: 40%;
+    padding: 8px 10px 9px 10px;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+
+    border-radius: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+  }
+  &__input:focus{
+    &__input:focus{
+      transition: 1000ms;
+      border: 1px solid #028fcc;
+    }
+  }
+  &_rs{
+    margin-left: 70px;
+    margin-right: -5px;
+    font-size: 20px;
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    background-color: white;
+    color: black;
+  }
+  &_botao{
+    padding: 10px 20px 10px 20px;
+    margin-left: 27%;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+  }
+}
+
+.ir{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.caixa{
+  margin: 15px 10px 15px 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(150, 159, 163);
+  padding: 10px 0px 10px 0px;
+}
+
+.texto-caixa{
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+}

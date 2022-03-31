@@ -1,0 +1,64 @@
+.corpo{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  margin: -30px -5px -30px -5px;
+  background-color: rgb(222, 231, 236);
+}
+.caixa{
+  margin: 15px 10px 15px 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(150, 159, 163);
+}
+
+.titulo{
+  margin-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 92%;
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-bottom: 1px solid rgb(222, 231, 236);
+}
+
+.ver-mais{
+  margin-left: 15px;
+  padding-bottom: 15px;
+  font-weight: normal;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(48, 59, 94);
+}
+
+.caixa-anuncio{
+  margin: 15px 10px 15px 10px;
+  background-color: #005e86;
+  border-radius: 5px;
+}
+
+.titulo-anuncio{
+  color: white;
+  margin-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 92%;
+  font-weight: normal;
+  font-size: 1.4rem;
+  border-bottom: 1px solid rgb(222, 231, 236);
+}
+
+.ver-mais-anuncio{
+  margin-left: 15px;
+  padding-bottom: 15px;
+  font-weight: normal;
+}
+
+.escondido {
+  display: none;
+}
+
+#confira{
+  color: white;
+}

@@ -1,0 +1,26 @@
+<section class="container corpo">
+  <div>
+    <h2 class="titulo">ITLAB <span>BANK</span></h2>
+  </div>
+  <nav role="navigation" *ngIf="mostrarMenu">
+    <div id="menuToggle" class="area-funcoes">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <a routerLink="home"><li>início</li></a>
+        <a routerLink="extrato"><li>extrato</li></a>
+        <a routerLink="nova-transferencia"><li>fazer transferência</li></a>
+        <a routerLink="meus-investimentos"><li>meus investimentos</li></a>
+        <a routerLink="pix"><li>PIX</li></a>
+        <button class="sair" (click)="sair()">logout</button>
+      </ul>
+    </div>
+  </nav>
+</section>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

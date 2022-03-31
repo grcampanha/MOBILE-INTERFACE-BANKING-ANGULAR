@@ -1,0 +1,42 @@
+<div class="container" id="money">
+  <div class="area-saldo">
+    <h2 class="saldo">saldo em conta</h2>
+    <div *ngFor="let saldos of saldos; let i = index; let l = last">
+      <h2 class="saldo2" *ngIf="l == true">
+        {{ saldos.montante | currency }}
+      </h2>
+    </div>
+  </div>
+</div>
+<section class="container">
+  <div class="extrato">
+    <h2 class="corpo_titulo">Extrato Bancário</h2>
+    <div class="area-filtro">
+      <p class="buscar">procure transferências específicas</p>
+      <input class="form-control search" type="text" name="search" placeholder="pesquisar" [(ngModel)]="filter" />
+    </div>
+  </div>
+</section>
+<section class="parte-inferior">
+    <div class="corpo">
+      <div class="corpo_item">
+        <div *ngFor="let transferencia of transferencias | filter:filter; let i = index">
+          <div class="teste1">
+            <div class="teste-valor">
+              <p>{{ transferencia.data | date: "shortDate" }}</p>
+            </div>
+            <div class="teste-data">
+              <p class="text-data">{{transferencia.valor | currency}}</p>
+            </div>
+            <p class="text-info">destino: {{transferencia.tipoConta}}</p>
+            <p class="text-info2">conta {{transferencia.conta}} agencia {{transferencia.agencia}}</p>
+
+          </div>
+        </div>
+        <ng-template #listaVazia>
+          <p class="vazio">Nenhuma transferência encontrada :(</p>
+        </ng-template>
+      </div>
+    </div>
+</section>
+

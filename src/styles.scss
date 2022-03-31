@@ -1,0 +1,41 @@
+:root {
+  --primary: #369c38;
+  --secondary: #132A13;
+  --padding: 15px;
+  --cinza : #405040;
+  --cinza-claro: #dedede;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Trebuchet MS";
+}
+
+.container {
+  max-width: 400px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(222, 231, 236);
+  margin: 0 auto;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 400px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(222, 231, 236);
+    margin: -8px -8px -8px -8px;
+  }
+}

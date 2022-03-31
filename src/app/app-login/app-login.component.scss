@@ -1,0 +1,124 @@
+$primary: #c0f8fc;
+$secondary: #c0f8fc;
+
+.corpo{
+ background-color: #005e86;
+ margin: -32px -5px -30px -5px;
+ padding-top: 10px;
+ padding-left: 40px;
+ padding-right: 40px;
+ padding-bottom: 58.5%;
+}
+
+.login{
+  color: whitesmoke;
+  font-family:'Trebuchet MS';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 190%;
+  border: 0;
+  border-bottom: 2px solid whitesmoke;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: whitesmoke;
+
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight:700;
+  }
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, $primary,$secondary);
+  border-image-slice: 1;
+}
+
+button{
+  margin-top: 40px;
+  width: 90%;
+  padding: 15px 0px 15px 0px;
+  margin-left: 5%;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  color: #005e86;
+  box-shadow: 0px 0px 8px #002433;
+}
+
+.esqueci-senha{
+  color: rgba(224, 224, 224, 0.8);
+  font-size: 0.9rem;
+  width: 80%;
+  margin-left: 27%;
+}
+
+.caixa-anuncio{
+  margin: -80px 10px 15px 10px;
+  width: 90%;
+  background-color: #c04e4e;
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+  box-shadow: 0px 0px 8px #002433;
+}
+
+.titulo-anuncio{
+  color: white;
+  margin-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 92%;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+
+.escondido {
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+
+.none {
+  opacity: 0;
+}

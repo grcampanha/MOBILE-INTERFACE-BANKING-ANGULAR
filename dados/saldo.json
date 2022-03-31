@@ -1,0 +1,28 @@
+{
+  "saldos": [
+    {
+      "id": 1,
+      "montante": 163913.72,
+      "nomeUser": "Guilherme",
+      "agenciaUser": "1",
+      "contaUser": "1",
+      "passwordUser": "1"
+    },
+    {
+      "montante": 158483.72,
+      "nomeUser": "Guilherme",
+      "agenciaUser": "1",
+      "contaUser": "1",
+      "passwordUser": "1",
+      "id": 2
+    },
+    {
+      "montante": 148484.72,
+      "nomeUser": "Guilherme",
+      "agenciaUser": "1",
+      "contaUser": "1",
+      "passwordUser": "1",
+      "id": 3
+    }
+  ]
+}

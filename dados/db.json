@@ -1,0 +1,13 @@
+{
+  "transferencias": [
+    {
+      "id": 1,
+      "instituicao": "001 Banco do Brasil S.A.",
+      "tipoConta": "Conta Corrente",
+      "agencia": 1212,
+      "conta": "12121-1",
+      "valor": 29.9,
+      "data": "2020-11-06T21:34:17.155Z"
+    }
+  ]
+}
