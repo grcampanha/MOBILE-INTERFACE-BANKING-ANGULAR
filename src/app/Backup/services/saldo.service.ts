@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SaldoService {
   private valorSaldo: any[];
-  private url = 'http://localhost:7000/saldos'; //Parametrizar
+  private url = 'http://localhost:7000/saldos';
 
   constructor(private httpClient: HttpClient) {
     this.valorSaldo = [];

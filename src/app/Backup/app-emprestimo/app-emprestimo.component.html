@@ -1,14 +1,5 @@
-<div class="container" id="money">
-  <div class="area-saldo">
-    <h2 class="saldo">saldo em conta</h2>
-    <div *ngFor="let saldos of saldos; let i = index; let l = last">
-      <h2 class="saldo2" *ngIf="l == true">
-        {{ saldos.montante | currency }}
-      </h2>
-    </div>
-  </div>
-</div>
 <section>
+
   <div class="anuncio">
     <h3 class="anuncio_text">Dinheiro na conta em minutos!</h3>
     <h3 class="anuncio_text2">até 120 dias para começar a pagar</h3>
@@ -16,11 +7,9 @@
 
   <div class="emprestimo">
     <h1 class="emprestimo_titulo">Crédito Pessoal</h1>
-    <p class="emprestimo_paragrafo">Parabéns! Você tem um crédito pré-aprovado de <span
-        class="emprestimo_valor">R$500.000,00</span> para usa-lo informe o valor no campo abaixo!</p>
-    <button disabled class="emprestimo_rs">R$</button><input type="number" class="emprestimo_input"
-      [(ngModel)]="emprestimo"><br>
-    <button class="emprestimo_botao" (click)="fazerEmprestimo()">solicitar emprestimo</button>
+    <p class="emprestimo_paragrafo">Parabéns! Você tem um crédito pré-aprovado de <span class="emprestimo_valor">R$500.000,00</span> para usa-lo informe o valor no campo abaixo!</p>
+    <button disabled class="emprestimo_rs">R$</button><input type="number" class="emprestimo_input" [(ngModel)]="emprestimo"><br>
+    <button class="emprestimo_botao">solicitar emprestimo</button>
   </div>
 
   <p class="ir">navegar para</p>

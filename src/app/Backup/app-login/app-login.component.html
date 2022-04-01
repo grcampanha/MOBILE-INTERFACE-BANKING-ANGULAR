@@ -1,0 +1,22 @@
+<section class="container">
+  <div class="corpo">
+    <h1 class="login" id="login">Login</h1>
+    <div id="erro" class="caixa-anuncio escondido">
+      <h1 class="titulo-anuncio">falha no login, dados incorretos!</h1>
+    </div>
+    <div class="form__group field">
+      <input [(ngModel)]="usuario.agencia" type="input" type="text" class="form__field" placeholder="agência" name="agencia" id='agencia' required />
+      <label for="agencia" class="form__label">agência</label>
+    </div>
+    <div class="form__group field">
+      <input [(ngModel)]="usuario.conta" type="input" class="form__field" placeholder="Name" name="conta" id='conta' required />
+      <label for="conta" class="form__label">conta</label>
+    </div>
+    <div class="form__group field">
+      <input [(ngModel)]="usuario.senha" type="input" class="form__field" placeholder="Name" type="password" name="senha" id='senha' required />
+      <label for="senha" class="form__label">senha eletrônica</label>
+    </div>
+    <button (click)="fazerLogin()">acessar</button>
+    <p class="esqueci-senha">esqueci minha senha</p>
+  </div>
+</section>

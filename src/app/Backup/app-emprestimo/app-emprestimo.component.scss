@@ -1,33 +1,3 @@
-#money{
-  margin-top: -50px;
-  background-color: #005e86;
-}
-
-.saldo{
-  font-size: 13px;
-  margin-top: 30px;
-  margin-bottom: -5px;
-  margin-left: 2px;
-  color: #ffffff;
-  font-weight: normal;
-  font-family: arial;
-}
-
-.saldo2{
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 22px;
-}
-
-
-@media (max-width: 500px) {
-  .area-saldo {
-    width: 90%;
-    margin-left: 5%;
-    border-top: 1px solid #608797;
-  }
-}
-
 section{
   background-color: rgb(222, 231, 236);
   padding-top: 1px;

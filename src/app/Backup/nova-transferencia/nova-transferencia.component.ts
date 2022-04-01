@@ -47,7 +47,7 @@ export class NovaTransferenciaComponent {
   }
 
   transferir() {
-    const valorMaximo = this.saldos[this.saldos.length - 1]['montante'];
+    const valorMaximo = this.saldos[0]['montante'];
     if (this.instituicao == undefined) {
       document.getElementById('erro').classList.remove('escondido');
       document.getElementById('mensagem').innerHTML =

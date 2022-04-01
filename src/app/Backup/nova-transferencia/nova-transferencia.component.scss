@@ -1,0 +1,139 @@
+#money{
+  margin-top: -50px;
+  background-color: #005e86;
+}
+
+.saldo{
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: -5px;
+  margin-left: 2px;
+  color: #ffffff;
+  font-weight: normal;
+  font-family: arial;
+}
+
+.saldo2{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+@media (max-width: 500px) {
+  .area-saldo {
+    width: 90%;
+    margin-left: 5%;
+    border-top: 1px solid #608797;
+  }
+}
+
+.formulario {
+  background-color: rgb(255, 255, 255);
+  margin-top: -25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 16px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  border-top: 5px solid #005e86;
+  border-bottom: 5px solid #005e86;
+  padding-bottom: 40px;
+
+  box-shadow: 0px 0px 5px rgb(150, 159, 163);
+
+  &__titulo {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: normal;
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+}
+
+.form-field {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+
+
+  &__label {
+    color: rgb(37, 51, 71);
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-family:'Trebuchet MS';
+
+  }
+
+  &__input {
+    padding: 10px;
+    color: rgb(37, 51, 71);
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(37, 51, 71);
+  }
+
+  &__input:focus{
+    transition: 1000ms;
+    border-bottom: 1px solid #028fcc;
+  }
+}
+
+.botao-wrapper {
+  display: flex;
+}
+
+.botao {
+  background-color: #005e86;
+  color: rgb(255, 255, 255);
+  display: block;
+  flex: 1;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 0.5em;
+  cursor: pointer;
+  text-transform: lowercase;
+  margin-top: 20px;
+  font-weight: normal;
+  font-family:'Calibri';
+
+  &:hover {
+    transition: 500ms;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: #005e86;
+  }
+}
+
+.option{
+  font-family:'Trebuchet MS';
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+}
+
+.caixa-anuncio{
+  margin: 15px 10px 15px 10px;
+  background-color: #c04e4e;
+  border-radius: 5px;
+}
+
+.titulo-anuncio{
+  color: white;
+  margin-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 92%;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.escondido {
+  display: none;
+}
